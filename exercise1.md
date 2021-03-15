@@ -1,0 +1,13 @@
+- CI 设置中的一些常见步骤包括 linting, testing, 以及 building。在你选择的语言的生态系统中，有哪些具体工具来处理这些步骤？你可以通过谷歌搜索答案。
+  - kotlin
+    - ktlint for lint
+    - gradle for build
+    - kotlin.test for test
+- 除了 Jenkins 和 GitHub Actions 之外，还有什么其他方法可以设置 CI? 同样，你可以问 google！
+  - [source](https://www.infoq.cn/article/dbsu7kilwhyr8rupbit9)
+  - CircleCI
+  - GitLab CI
+  - TravisCI
+  - GoCD
+- 在自主托管环境或基于云的环境中，这种设置会更好吗？为什么？你需要什么信息来做出这个决定？
+  - CI/CD 的使用与组织的成功密切相关(例如提高盈利能力和产品质量，增加市场份额，缩短上市时间)。CI/CD 甚至可以通过降低开发人员的倦怠率来使他们更加快乐。
