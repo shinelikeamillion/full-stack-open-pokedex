@@ -13,8 +13,14 @@ jobs:
         with:
           node-version: "12.x"
       - name: npm install
-        run: npm install
+        run: npm installs
       - name: lint
         run: npm run eslint
       - name: test
         run: npm run test
+      - name: e2e tests
+        uses: cypress-io/github-action@v2
+        with:
+          commond: npm run test:e2e
+          start: npm run start-prod
+          wait-on: http://localhost:5000
